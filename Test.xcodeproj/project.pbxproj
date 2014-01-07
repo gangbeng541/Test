@@ -20,6 +20,8 @@
 		10D2D00A187BD81600490C3A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D2D009187BD81600490C3A /* Default-568h@2x.png */; };
 		10D2D00D187BD81600490C3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D2D00C187BD81600490C3A /* ViewController.m */; };
 		10D2D010187BD81600490C3A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10D2D00E187BD81600490C3A /* ViewController.xib */; };
+		10D2D019187BD9F900490C3A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D2D017187BD9F900490C3A /* SecondViewController.m */; };
+		10D2D01A187BD9F900490C3A /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10D2D018187BD9F900490C3A /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,9 @@
 		10D2D00B187BD81600490C3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		10D2D00C187BD81600490C3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		10D2D00F187BD81600490C3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		10D2D016187BD9F900490C3A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		10D2D017187BD9F900490C3A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		10D2D018187BD9F900490C3A /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +101,9 @@
 				10659E1B187BD8F70068D576 /* FirstViewController.h */,
 				10659E1C187BD8F70068D576 /* FirstViewController.m */,
 				10659E1D187BD8F70068D576 /* FirstViewController.xib */,
+				10D2D016187BD9F900490C3A /* SecondViewController.h */,
+				10D2D017187BD9F900490C3A /* SecondViewController.m */,
+				10D2D018187BD9F900490C3A /* SecondViewController.xib */,
 				10D2CFFA187BD81600490C3A /* Supporting Files */,
 			);
 			path = Test;
@@ -172,6 +180,7 @@
 				10D2D00A187BD81600490C3A /* Default-568h@2x.png in Resources */,
 				10D2D010187BD81600490C3A /* ViewController.xib in Resources */,
 				10659E1F187BD8F70068D576 /* FirstViewController.xib in Resources */,
+				10D2D01A187BD9F900490C3A /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +195,7 @@
 				10D2D004187BD81600490C3A /* AppDelegate.m in Sources */,
 				10D2D00D187BD81600490C3A /* ViewController.m in Sources */,
 				10659E1E187BD8F70068D576 /* FirstViewController.m in Sources */,
+				10D2D019187BD9F900490C3A /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
